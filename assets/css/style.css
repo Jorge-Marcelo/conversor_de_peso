@@ -1,0 +1,227 @@
+
+/*
+Autor: Jorge Marcelo
+Data de Criação: 07/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
+/*Google Fonts*/
+/*Fonte: Agdasima*/
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+/*Fonte: Oswald*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+/*Fonte: Kanit*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+/*Configurações globais*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+transition: all 0.5s ease;
+}
+
+
+/*cores, posicionamento e background*/
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url("../img/paisagem1.png");
+
+}
+
+/*Configuração de textos*/
+h1{
+font-family: 'Agdasima', sans-serif;
+color: #FFF;
+text-align: center;
+font-size: 2.3rem;
+margin-bottom: 10px;
+}
+
+
+h2{
+font-family: 'Agdasima', sans-serif;
+font-weight: 900;
+font-size: 1.7rem;
+text-align: center;
+color: white;
+margin-top: 20px;
+}
+
+
+/*Label do formulario*/
+label{
+font-family: 'Agdasima', sans-serif;
+font-weight: 900;
+font-size: 1.6rem;
+color: white;
+margin: 5px;
+}
+
+
+/*Container da pagina*/
+.container{
+position: relative;
+width: 300px;
+height: 500px;
+overflow: hidden;
+border: 3px solid white;
+border-radius: 10px;
+}
+
+
+/*Container do formulario*/
+.container form {
+position: absolute;
+inset: 4px;
+background: transparent;
+padding: 10px 40px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+}
+
+/*SEssão para cada label e input do formulario*/
+section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 230px;
+}
+
+/*Inputs do formulario*/
+input{
+position: relative;
+width: 100%;
+padding: 5px 5px 5px;
+margin-bottom: 10px;
+background: transparent;
+outline: none;
+border-radius: 10px;
+border: 3px solid rgb(255, 255, 255);
+color: white;
+font-size: 1.1rem;
+}
+
+/*Botão de mudança de tema*/
+.changeButton{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+width: 150px;
+height: 40px;
+border-radius: 10px;
+text-align: center;
+color: rgb(255, 255, 255);
+border: 3px solid rgb(255, 255, 255);
+background: transparent;
+font-size: 1.2rem;
+font-family: 'Kanit', sans-serif;
+font-weight: 900;
+cursor: pointer;
+}
+
+.changeButton:hover{
+color: rgb(0, 0, 0);
+border: 3px solid rgb(0, 0, 0);
+background: white;
+}
+
+
+
+/*Rodape e redes sociais*/
+table{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+button{
+margin:  0 5px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.github{
+background: transparent;
+border: 2px solid rgb(255, 255, 255);
+}
+
+.github:hover{
+background: rgb(0, 0, 0);
+}
+
+.linkedin{
+background: transparent;
+border: 2px solid rgb(255, 255, 255);
+}
+
+.linkedin:hover{
+background-color: rgb(47, 0, 255);
+}
+
+.instagram{
+background: transparent;
+border: 2px solid rgb(255, 255, 255);
+}
+
+.instagram:hover{
+background-color: rgb(255, 0, 128);
+}
+
+
+/* Estilos PADRÃO DA ANIMAÇÃO */
+.esmeralda{
+position: absolute;
+top: 92%;
+left: 45%;
+width: calc(188px/4);
+height: 32px;
+animation: animation 1s steps(4) infinite;
+cursor: pointer;
+background: url("../anim/esmeraldas-1.png");
+
+}
+
+@keyframes animation {
+from {
+background-position: 0;
+}
+to {
+background-position: 188px;
+}
+}
+
+/* Estilos para as diferentes animações */
+.esmeralda-1 {
+background: url("../anim/esmeraldas-1.png");
+}
+.esmeralda-2 {
+background: url("../anim/esmeraldas-2.png");
+}
+.esmeralda-3 {
+background: url("../anim/esmeraldas-3.png");
+}
+.esmeralda-4 {
+background: url("../anim/esmeraldas-4.png");
+}
+.esmeralda-5 {
+background: url("../anim/esmeraldas-5.png");
+}
+.esmeralda-6 {
+background: url("../anim/esmeraldas-6.png");
+}
+.esmeralda-7 {
+background: url("../anim/esmeraldas-7.png");
+}
